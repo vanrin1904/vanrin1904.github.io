@@ -1,0 +1,138 @@
+*{
+	box-sizing: inherit;
+}
+body{
+	box-sizing: border-box;
+	font-size: 1.2rem;
+	margin: 0px;
+}
+ul li{
+	list-style-type: none;
+}
+ul{
+	padding-left: 0;
+	margin: 0px;
+}
+.header_list{
+	display: flex;
+	padding-left: 0px;
+	margin: 0px;
+}
+.header_item{
+	margin-left: 22px;
+}
+.header_contact{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.input_search{
+	margin-right: 22px;
+	height: 25px;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	background: violet;
+	padding-left: 12px;
+}
+.full{
+	background: gray;
+}
+.header{
+	width: 1200px;
+	margin: 0px auto;
+}
+.content_star{
+	text-align: center;
+	background: orange;
+}
+.img_giongcho{
+	display: flex;
+	justify-content: space-between;
+}
+.jmg{
+
+	text-align: center;
+}
+.cuoicung{
+	font-size: 170%;
+}
+.quangcao{
+	text-align: center;
+	margin-top:0px;
+}
+.care_dog{
+	display: block;
+}
+.baivietlienquan_yeucho{
+	display: flex;
+}
+a{
+	text-decoration: none;
+}
+.menu_cap2{
+	text-align: center;
+	background: #A9A9A9;
+}
+ul li{
+	display: inline-table;
+	margin-left: 15px;
+}
+.menu{
+	position: relative;
+}
+.menu:hover .submenu{
+display: block;
+}
+.submenu{
+	width: 100%;
+	display: none;
+	top: 100%
+	left: 0;
+	position: absolute;
+	text-align: left;
+	animation: Submenu ease 1s;
+	background: #fff;
+}
+.submenu_item{
+	width: 100%;
+	display: block;
+	padding: 8px;
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 0px;
+}
+@keyframes Submenu{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+.footer{
+	background: #B3ACAC;
+	display: flex;
+	justify-content: space-around;
+}
+.diachi_list li{
+	display: block;
+	margin-left: 0px;
+}
+.gioithieuthem{
+	margin-bottom: 8px;
+}
+.social_icon a i{
+	opacity: 0.8;
+	font-size: 3rem;
+	margin-right: 12px;
+	transition: transform;
+	transition-delay: 0.1s;
+}
+
+.social_icon a i:hover{
+	opacity: 1;
+	transform: rotate(25deg);
+}
